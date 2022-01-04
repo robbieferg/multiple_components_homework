@@ -1,8 +1,8 @@
-const Film = ({ name, url }) => {
+const Film = ({ key, name, url }) => {
     return (
-        <>
-            <a href={url}>{name}</a>
-        </>
+        
+        <li><a href={url}>{name}</a></li>
+        
     );
 };
 
